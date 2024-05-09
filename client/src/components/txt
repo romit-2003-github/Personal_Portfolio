@@ -1,0 +1,22 @@
+<Card className='cards' style={{ borderRadius: "20px" }}>
+        <CardMedia
+          style={{ objectFit: "contain" }}
+          sx={{ height: 250 }}
+          image={require(`../images/frontend.png`)}
+          title="green iguana"
+        />
+        <CardContent>
+          <Typography gutterBottom variant="h4" component="div">
+            Front-End
+          </Typography>
+          <Typography variant="body2" color="text.secondary">
+            Languages: HTML, CSS, JavaScript <br />
+            Frameworks: React, Bootstrap, Material UI <br />
+            Tools: Git, GitHub, VS Code <br />
+          </Typography>
+        </CardContent>
+        <CardActions>
+          <Button size="small">Share</Button>
+          <Button size="small">Learn More</Button>
+        </CardActions>
+      </Card>
